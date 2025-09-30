@@ -25,7 +25,8 @@ def exponential(num1,num2):
     return num1 ** num2
 
 # Square
-
+def square(num1):
+    return num1 ** 2
 # Squreroot
 
 #  factorial
@@ -39,3 +40,4 @@ if num2 >= 0:
     print("Factorial of num2:", math.factorial(num2))
 else:
     print("Factorial of num2: Not defined for negative numbers.")
+
