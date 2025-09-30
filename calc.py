@@ -8,7 +8,9 @@ num2 = int(input("Enter second number :"))
 # Division
 
 # Multiplication
-
+def multiply(num1,num2):
+    return num1 * num2
+print(multiply(num1,num2))    
 # exponential
 
 # Square
