@@ -29,15 +29,29 @@ def square(num1):
     return num1 ** 2
 # Squreroot
 
-if num1 >= 0:
-    print("Square root of first number:", math.sqrt(num1))
-else:
-    print("Square root of first number: Not defined for negative numbers")
 
-if num2 >= 0:
-    print("Square root of second number:", math.sqrt(num2))
-else:
-    print("Square root of second number: Not defined for negative numbers")
+def safe_sqrt(num):
+    if num >= 0:
+        return math.sqrt(num)
+    else:
+        return "Not defined for negative numbers"
+
+# Example usage:
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Square root of first number:", safe_sqrt(num1))
+print("Square root of second number:", safe_sqrt(num2))
+
+# if num1 >= 0:
+#     print("Square root of first number:", math.sqrt(num1))
+# else:
+#     print("Square root of first number: Not defined for negative numbers")
+
+# if num2 >= 0:
+#     print("Square root of second number:", math.sqrt(num2))
+# else:
+#     print("Square root of second number: Not defined for negative numbers")
 
 #  factorial
 def factorial(num1,num2):
