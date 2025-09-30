@@ -17,7 +17,9 @@ def division(n1, n2):
 print("Division:", division(num1, num2))
 
 # Multiplication
-
+def multiply(num1,num2):
+    return num1 * num2
+print(multiply(num1,num2))    
 # exponential
 def exponential(num1,num2):
     return num1 ** num2
