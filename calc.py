@@ -9,6 +9,12 @@ def addition(num1,num2):
 def Subtraction(num1,num2)
      return num1-num2
 # Division
+def division(n1, n2):
+    if n2 == 0:
+        return "Error! Division by zero."
+    return n1/n2
+
+print("Division:", division(num1, num2))
 
 # Multiplication
 
