@@ -29,15 +29,14 @@ def square(num1):
     return num1 ** 2
 # Squreroot
 
-#  factorial
-
 if num1 >= 0:
-    print("Factorial of num1:", math.factorial(num1))
+    print("Square root of first number:", math.sqrt(num1))
 else:
-    print("Factorial of num1: Not defined for negative numbers.")
+    print("Square root of first number: Not defined for negative numbers")
 
 if num2 >= 0:
-    print("Factorial of num2:", math.factorial(num2))
+    print("Square root of second number:", math.sqrt(num2))
 else:
-    print("Factorial of num2: Not defined for negative numbers.")
+    print("Square root of second number: Not defined for negative numbers")
 
+#  factorial
