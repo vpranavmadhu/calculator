@@ -6,7 +6,7 @@ def addition(num1,num2):
     return num1+num2
 
 # Subtraction
-def Subtraction(num1,num2)
+def Subtraction(num1,num2):
      return num1-num2
 # Division
 def division(n1, n2):
@@ -40,12 +40,13 @@ else:
     print("Square root of second number: Not defined for negative numbers")
 
 #  factorial
-if num1 >= 0:
-    print("Factorial of num1:", math.factorial(num1))
-else:
-    print("Factorial of num1: Not defined for negative numbers.")
+def factorial(num1,num2):
+    if num1 >= 0:
+        print("Factorial of num1:", math.factorial(num1))
+    else:
+        print("Factorial of num1: Not defined for negative numbers.")
 
-if num2 >= 0:
-    print("Factorial of num2:", math.factorial(num2))
-else:
-    print("Factorial of num2: Not defined for negative numbers.")
+    if num2 >= 0:
+        print("Factorial of num2:", math.factorial(num2))
+    else:
+        print("Factorial of num2: Not defined for negative numbers.")
