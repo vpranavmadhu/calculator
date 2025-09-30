@@ -16,6 +16,7 @@ num2 = int(input("Enter second number :"))
 # Squreroot
 
 #  factorial
+
 if num1 >= 0:
     print("Factorial of num1:", math.factorial(num1))
 else:
