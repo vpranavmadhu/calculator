@@ -12,7 +12,11 @@ num2 = int(input("Enter second number :"))
 # exponential
 
 # Square
-
+def square(num1):
+    return num1 ** 2
 # Squreroot
 
 #  factorial
+
+
+
