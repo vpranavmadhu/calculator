@@ -53,41 +53,40 @@ def factorial(num1,num2):
 
 
 def main():
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
+    cont=1
+    while cont==1 :
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
 
-    print("\nChoose operation:")
-    print("+  : Addition")
-    print("-  : Subtraction")
-    print("/  : Division")
-    print("*  : Multiplication")
-    print("^  : Exponential (num1 ^ num2)")
-    print("sq : Square of numbers")
-    print("sr : Square root of numbers")
-    print("!  : Factorial of numbers")
-
-    choice = input("\nEnter operator: ")
-
-    if choice == "+":
-        print("Result:", addition(num1, num2))
-    elif choice == "-":
-        print("Result:", Subtraction(num1, num2))
-    elif choice == "/":
-        print("Result:", division(num1, num2))
-    elif choice == "*":
-        print("Result:", multiply(num1, num2))
-    elif choice == "^":
-        print("Result:", exponential(num1, num2))
-    elif choice == "sq":
-        print("Square of num1:", square(num1))
-        print("Square of num2:", square(num2))
-    elif choice == "sr":
-        squareroot(num1, num2)
-    elif choice == "!":
-        factorial(num1, num2)
-    else:
-        print("Invalid operator!")
-
+        print("\nChoose operation:")
+        print("+  : Addition")
+        print("-  : Subtraction")
+        print("/  : Division")
+        print("*  : Multiplication")
+        print("^  : Exponential (num1 ^ num2)")
+        print("sq : Square of numbers")
+        print("sr : Square root of numbers")
+        print("!  : Factorial of numbers")
+        choice = input("\nEnter operator: ")
+        if choice == "+":
+            print("Result:", addition(num1, num2))
+        elif choice == "-":
+            print("Result:", Subtraction(num1, num2))
+        elif choice == "/":
+            print("Result:", division(num1, num2))
+        elif choice == "*":
+            print("Result:", multiply(num1, num2))
+        elif choice == "^":
+            print("Result:", exponential(num1, num2))
+        elif choice == "sq":
+            print("Result:", square(num1,num2))
+        elif choice == "sr":
+            squareroot(num1, num2)
+        elif choice == "!":
+            factorial(num1, num2)
+        else:
+            print("Invalid operator!")
+        cont=int(input("Continue? 1 - yes, 0 - no"))
 
 if __name__ == "__main__":
     main()
