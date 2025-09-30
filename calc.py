@@ -40,3 +40,12 @@ else:
     print("Square root of second number: Not defined for negative numbers")
 
 #  factorial
+if num1 >= 0:
+    print("Factorial of num1:", math.factorial(num1))
+else:
+    print("Factorial of num1: Not defined for negative numbers.")
+
+if num2 >= 0:
+    print("Factorial of num2:", math.factorial(num2))
+else:
+    print("Factorial of num2: Not defined for negative numbers.")
