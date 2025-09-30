@@ -23,8 +23,9 @@ def exponential(num1,num2):
     return num1 ** num2
 
 # Square
-def square(num1):
-    return num1 ** 2
+def square(num1,num2):
+    print("The square of num1" ,num1 ** 2)
+    print("The square of num2" ,num2 ** 2)
 # Squreroot
 def squareroot(num1,num2):
     if num1 >= 0:
@@ -70,7 +71,7 @@ def main():
     if choice == "+":
         print("Result:", addition(num1, num2))
     elif choice == "-":
-        print("Result:", subtraction(num1, num2))
+        print("Result:", Subtraction(num1, num2))
     elif choice == "/":
         print("Result:", division(num1, num2))
     elif choice == "*":
